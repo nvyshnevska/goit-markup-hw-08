@@ -1,0 +1,22 @@
+.address {
+  font-style: normal;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  @include font(14px, null, 1.7, 0.03em);
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--transition-duration-timing);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__map {
+  color: var(--primary-white-color);
+}

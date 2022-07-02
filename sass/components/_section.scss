@@ -1,0 +1,19 @@
+.section {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+
+  @media screen and (min-width: 1600px) {
+    padding: 94px 0;
+  }
+}
+
+.section--padding-bottom {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.section--background {
+  background-color: var(--secondary-white-color);
+}
