@@ -1,11 +1,11 @@
 .contacts {
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
 
 .contacts__item + .contacts__item {
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     margin-left: 50px;
   }
 }
@@ -14,7 +14,7 @@
   margin-right: 10px;
   fill: currentColor;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.99px) {
     display: none;
   }
 }
@@ -38,7 +38,7 @@
     }
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     padding: 32px 0;
     @include font(14px, 500, 1.14, 0.02em);
   }

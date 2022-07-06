@@ -2,7 +2,7 @@
   width: 100%;
   border-bottom: 1px solid #ececec;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.98px) {
     height: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,19 +16,19 @@
 
 .page-header__logo {
   margin-right: 88px;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     margin-right: 93px;
   }
 }
 
 .page-header__nav {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.98px) {
     display: none;
   }
 }
 
 .page-header__contacts {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.98px) {
     display: none;
   }
   @media screen and (min-width: 768px) {
